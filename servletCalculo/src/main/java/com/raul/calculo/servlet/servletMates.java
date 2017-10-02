@@ -65,7 +65,7 @@ public class servletMates extends HttpServlet {
 			cili.computeVolume();
 			out.println("Es área del Cilindro es "+ cili.computeArea() + "<br>");
 			out.println("El volumen del Cilindro es  "+ cili.computeVolume() + "<br>");
-			out.println("La descripción del Cilindro es  "+ cili.description() + "<br>");
+			out.println("La descripción del Cilindro es:  "+ cili.description() + "<br>");
 			break;
 		case 2:
 			try {
@@ -79,7 +79,7 @@ public class servletMates extends HttpServlet {
 			cu.computeVolume();
 			out.println("Es área del Cubo es "+ cu.computeArea() + "<br>");
 			out.println("El volumen del Cubo es  "+ cu.computeVolume() + "<br>");
-			out.println("La descripción del Cubo es  "+ cu.description() + "<br>");
+			out.println("La descripción del Cubo es:  "+ cu.description() + "<br>");
 			break;
 		case 3:
 			try {
@@ -95,7 +95,7 @@ public class servletMates extends HttpServlet {
 			cono.computeVolume();
 			out.println("Es área del Cono es "+ cono.computeArea() + "<br>");
 			out.println("El volumen del Cono es  "+ cono.computeVolume() + "<br>");
-			out.println("La descripción del Cono es  "+ cono.description() + "<br>");
+			out.println("La descripción del Cono es:  "+ cono.description() + "<br>");
 			break;
 		case 4:
 			try {
@@ -109,7 +109,7 @@ public class servletMates extends HttpServlet {
 			esfera.computeVolume();
 			out.println("Es área de la esfera es "+ esfera.computeArea() + "<br>");
 			out.println("El volumen de la esfera es  "+ esfera.computeVolume() + "<br>");
-			out.println("La descripción de la esfera es  "+ esfera.description() + "<br>");
+			out.println("La descripción de la esfera es:  "+ esfera.description() + "<br>");
 			break;
 		default:
 			break;

@@ -18,7 +18,7 @@ public class Esfera implements IntGeometry {
 			+ "​Obviamente, la esfera es un sólido geométrico.La esfera, "
 			+ "como sólido de revolución, se genera haciendo girar una superficie "
 			+ "semicircular alrededor de su diámetro (Euclides, L. XI, def. 14)."
-			+ "Esfera proviene del término griego σφαῖρα, sphaîra, que significa "
+			+ "Esfera proviene del griego donde significa "
 			+ "pelota (para jugar). Coloquialmente hablando, se emplea la palabra "
 			+ "bola, para describir al cuerpo delimitado por una esfera.";
 	
